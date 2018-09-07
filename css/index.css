@@ -1,0 +1,64 @@
+html{
+  font-size:18px;
+}
+
+body{
+  font-family: 'Arsenal', sans-serif;
+  width:100vw;
+  background-color: #FBFAFA;
+  color:#375044;
+}
+
+h1{
+  font-weight:700;
+}
+
+.container {
+  width:60%;
+  margin:auto;
+}
+
+.background{
+  /* background-colo
+  r:#4D575B; */
+  background-image: linear-gradient(#AFB69B, #5CAA9F);
+  border-radius:50%;
+  width: 150vw;
+  height:100vh;
+  position:absolute;
+  z-index:-1;
+  left:-50vw;
+  top:-50vh;
+}
+
+.text-panel {
+  float:left;
+  width:30%;
+  margin:auto;
+  padding:5rem 2rem 0 0 ;
+  font-size:1.5rem;
+  text-align:center;
+}
+
+.image-panel {
+  float:left;
+  width:30%;
+  margin:auto;
+  padding:5rem 0 0 0;
+}
+
+h1{
+  margin:1rem 0 0 0;
+  
+}
+p{margin:0;}
+
+.pic {
+  /* width:20rem; */
+  height:50vh;
+}
+
+.fab {
+  font-size:2.5rem;
+  padding-left:.5rem
+}
